@@ -1,0 +1,6 @@
+invoice_id,amount,name,customer
+invoice_001,100.00,John Doe,Customer A
+invoice_002,200.00,Jane Smith,Customer B
+invoice_003,150.00,Bob Johnson,Customer C
+invoice_004,250.00,Alice Williams,Customer D
+invoice_005,300.00,Charlie Brown,Customer E
