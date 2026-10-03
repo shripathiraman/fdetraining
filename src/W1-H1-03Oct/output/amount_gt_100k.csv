@@ -1,0 +1,36 @@
+invoice_id,vendor,amount,status
+INV-2003,Nova Inc,650000,PENDING
+INV-2009,Horizon Foods,100001,PENDING
+INV-2036,ABC Ltd,178000,REVIEW
+INV-2037,TrueNorth Logistics,305000,APPROVED
+INV-2039,Golden Gate Imports,462000,PENDING
+INV-2040,XYZ Corp,117500,APPROVED
+INV-2043,Vertex Engineering,625000,APPROVED
+INV-2046,Ironwood Manufacturing,735000,REVIEW
+INV-2048,Cloudline Networks,215000,PENDING
+INV-2051,Summit Office Products,123000,PENDING
+INV-2053,Blue Ridge Consulting,248000,PENDING
+INV-2055,Everwell Pharmaceuticals,580000,APPROVED
+INV-2056,Mariner Equipment,192000,REVIEW
+INV-2058,Silver Creek Water,144000,APPROVED
+INV-2059,Atlas Data Services,329000,PENDING
+INV-2062,Riverbend Automotive,415000,APPROVED
+INV-2065,Westlake Security,167000,REVIEW
+INV-2066,Continental Hardware,223500,APPROVED
+INV-2068,Citywide Fuel,198000,APPROVED
+INV-2069,Redstone Analytics,312000,REVIEW
+INV-2070,Sunbeam Hospitality,106500,PENDING
+INV-2072,Heritage Textiles,281000,APPROVED
+INV-2073,Prime Distribution,643000,PENDING
+INV-2080,Southgate Components,496000,PENDING
+INV-2081,Maple Grove Clinic,209500,APPROVED
+INV-2082,Iron Gate Transport,176000,PENDING
+INV-2086,Metroline Apparel,137000,PENDING
+INV-2088,North Coast Fisheries,319000,APPROVED
+INV-2089,Red Maple Electronics,422500,PENDING
+INV-2091,Clear Path Diagnostics,208000,APPROVED
+INV-2092,Golden Harvest Grocers,116000,PENDING
+INV-2093,Silverstone Fabrication,532000,REVIEW
+INV-2096,Meridian Cloud Services,267000,PENDING
+INV-2098,Highpoint Electrical,184000,REVIEW
+INV-2100,Northstar Office Group,350000,PENDING

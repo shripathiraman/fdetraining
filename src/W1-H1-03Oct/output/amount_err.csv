@@ -1,0 +1,24 @@
+invoice_id,vendor,amount,status,errors
+INV-2004,,88000,PENDING,Missing vendor
+INV-2005,Delta Ltd,,PENDING,Invalid amount format: 
+INV-2006,Apex Supplies,TBD,PENDING,Invalid amount format: TBD
+INV-2008,,45000,APPROVED,Missing vendor
+INV-2016,ABC Ltd,0,PENDING,Non‑positive amount: 0.0
+INV-2017,Orion Systems,-2500,APPROVED,Non‑positive amount: -2500.0
+INV-2021,Bluebird Media,,PENDING,Invalid amount format: 
+INV-2022,Delta Ltd,82500,,Invalid status: 
+INV-2028,Willow Transport,,,Invalid status: ; Invalid amount format: 
+INV-2035,Coastal Telecom,212000,PAID,Invalid status: PAID
+INV-2041,Crescent Software,,REVIEW,Invalid amount format: 
+INV-2045,Harborview Supplies,153000,,Invalid status: 
+INV-2052,Greenway Energy,,APPROVED,Invalid amount format: 
+INV-2054,Central City Couriers,36750,,Invalid status: 
+INV-2061,Northwind Paper,,PENDING,Invalid amount format: 
+INV-2063,Pioneer Medical Group,287500,,Invalid status: 
+INV-2071,Cloud Harbor Hosting,154000,,Invalid status: 
+INV-2075,Bridgeway Engineering,,APPROVED,Invalid amount format: 
+INV-2078,New Leaf Recycling,128000,,Invalid status: 
+INV-2084,Keystone Industrial,,,Invalid status: ; Invalid amount format: 
+INV-2090,Grandview Printing,29750,,Invalid status: 
+INV-2094,Bluewater Shipping,,PENDING,Invalid amount format: 
+INV-2097,West End Packaging,81400,,Invalid status: 
