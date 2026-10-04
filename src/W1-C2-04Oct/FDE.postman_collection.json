@@ -1,0 +1,123 @@
+{
+  "info": {
+    "_postman_id": "7438f43b-75ad-46ce-8174-46d77cf7c374",
+    "name": "FDE",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "32900663"
+  },
+  "item": [
+    {
+      "name": "getInvoice",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:8001/invoices",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "8001",
+          "path": [
+            "invoices"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "CreateInvoice",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"id\": 6,\r\n    \"amount\": 10000,\r\n    \"status\": \"paid\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://127.0.0.1:8001/invoices",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "8001",
+          "path": [
+            "invoices"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "getEmployee",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"id\": 6,\r\n    \"amount\": 10000,\r\n    \"status\": \"paid\"\r\n}"
+        },
+        "url": {
+          "raw": "http://127.0.0.1:8001/employees",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "8001",
+          "path": [
+            "employees"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "PostEmployee",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"id\": 7,\r\n  \"name\": \"Shri\",\r\n  \"department\": \"HR\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://127.0.0.1:8001/employees",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "8001",
+          "path": [
+            "employees"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
