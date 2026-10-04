@@ -1,0 +1,27 @@
+invoices = [
+    {"invoice_id": 1, 
+     "vendor": "ABC Ltd", 
+     "amount": 100.0, 
+     "status": "paid"
+    },
+    {"invoice_id": 2, 
+     "vendor": "XYZ Corp", 
+     "amount": 200.0, 
+     "status": "unpaid"
+    },
+    {"invoice_id": 3, 
+     "vendor": "123 Industries", 
+     "amount": 150.0, 
+     "status": "paid"
+    },
+    {"invoice_id": 4, 
+     "vendor": "456 Solutions", 
+     "amount": 300.0, 
+     "status": "unpaid"
+    },
+    {"invoice_id": 5, 
+     "vendor": "789 Technologies", 
+     "amount": 250.0, 
+     "status": "paid"
+    }
+]
