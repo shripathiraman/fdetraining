@@ -1,4 +1,4 @@
-from helper import get_invoices
+from basics.helper import get_invoices
 
 invoices = get_invoices()
 
