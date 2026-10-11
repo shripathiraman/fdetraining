@@ -34,9 +34,9 @@ def get_invoice_by_id(invoice_id: str) -> dict:
 # Update the invoice in the JSON file
 def update_invoice(invoice_id: str, invoice: dict) -> None:
     invoices = read_all_invoices()
-    for invoice in invoices:
-        if invoice['invoice_id'] == invoice_id:
-            invoice.update(invoice)
+    for inv in invoices:
+        if inv['invoice_id'] == invoice_id:
+            inv.update(invoice)
             write_all_invoices(invoices)
             return
     raise ValueError(f"Invoice with ID {invoice_id} not found")

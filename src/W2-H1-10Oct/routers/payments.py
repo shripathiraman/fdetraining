@@ -11,12 +11,12 @@ def get_payments():
 
 @router.post("/payments")
 def create_payment(payment: Payments):
-    return payment_service.create_payment(payment.invoice, payment.amount, payment.status)
+    return payment_service.create_payment(payment)
 
 
 @router.put("/payments/{payment_id}")
 def update_payment(payment_id: str, payment: Payments):
-    updated_payment = payment_service.update_payment(payment_id, payment.invoice, payment.amount, payment.status)
+    updated_payment = payment_service.update_payment(payment_id, payment)
     if not updated_payment:
         raise HTTPException(status_code=404, detail="Payment not found")
     return updated_payment

@@ -29,9 +29,9 @@ def get_payment_by_id(invoice_id: str) -> dict:
 
 def update_payment(invoice_id: str, payment: dict) -> None:
     payments = read_all_payments()
-    for payment in payments:
-        if payment['invoice_id'] == invoice_id:
-            payment.update(payment)
+    for p in payments:
+        if p['invoice_id'] == invoice_id:
+            p.update(payment)
             write_all_payments(payments)
             return
     raise ValueError(f"Payment with ID {invoice_id} not found")

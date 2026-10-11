@@ -21,7 +21,7 @@ def get_invoices():
 
 
 @router.get("/invoices/{invoice_id}")
-def get_invoice(invoice_id: int):
+def get_invoice(invoice_id: str):
     invoice = invoice_service.read_invoice_by_id(invoice_id)
     if not invoice:
         raise HTTPException(status_code=404, detail="Invoice not found")
@@ -30,19 +30,19 @@ def get_invoice(invoice_id: int):
 
 @router.post("/invoices")
 def create_invoice(invoice: Invoices):
-    return invoice_service.create_invoice(invoice.vendor, invoice.amount, invoice.status)
+    return invoice_service.create_invoice(invoice)
 
 
 @router.delete("/invoices/{invoice_id}")
-def delete_invoice(invoice_id: int):
+def delete_invoice(invoice_id: str):
     if not invoice_service.delete_invoice(invoice_id):
         raise HTTPException(status_code=404, detail="Invoice not found")
     return {"message": "Invoice deleted successfully"}
 
 
 @router.put("/invoices/{invoice_id}")
-def update_invoice(invoice_id: int, invoice: Invoices):
-    updated_invoice = invoice_service.update_invoice(invoice_id, invoice.vendor, invoice.amount, invoice.status)
+def update_invoice(invoice_id: str, invoice: Invoices):
+    updated_invoice = invoice_service.update_invoice(invoice_id, invoice)
     if not updated_invoice:
         raise HTTPException(status_code=404, detail="Invoice not found")
     return updated_invoice
