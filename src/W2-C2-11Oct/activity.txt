@@ -1,0 +1,11 @@
+Classroom Activity
+
+1) Create user and db; //.sql
+2) Create table //.sql
+3) Seed data //.sql
+4) Write python code to query existing data, update one of the record 
+and then delete specific record
+
+Payments
+
+Track Gpay transfer amount 

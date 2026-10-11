@@ -1,0 +1,3 @@
+DROP DATABASE IF EXISTS fde_db;
+
+CREATE DATABASE fde_db OWNER fde_user;
